@@ -68,7 +68,7 @@ namespace MiniWeatherApp.Services
 
         private void SaveFavorites()
         {
-            var favoriteNames=_cities.Where(c=>c.IsFavorite).Select(c=>c.Name).ToList;
+            var favoriteNames=_cities.Where(c=>c.IsFavorite).Select(c=>c.Name).ToList();
             var favoritesString=string.Join(",", favoriteNames);
             Preferences.Set(FAVORITES_KEY, favoritesString);
         }

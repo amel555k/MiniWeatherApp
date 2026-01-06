@@ -1,5 +1,5 @@
 ﻿using System.Text.Json.Serialization;
-using WeatherApp.Models;
+using MiniWeatherApp.Models;
 
 namespace MiniWeatherApp.Models
 {

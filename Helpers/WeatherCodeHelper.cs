@@ -1,4 +1,4 @@
-﻿namespace WeatherApp.Helpers
+﻿namespace MiniWeatherApp.Helpers
 {
     public static class WeatherCodeHelper
     {

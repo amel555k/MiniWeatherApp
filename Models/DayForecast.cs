@@ -1,4 +1,4 @@
-namespace WeatherApp.Models
+namespace MiniWeatherApp.Models
 {
     public class DayForecast
     {

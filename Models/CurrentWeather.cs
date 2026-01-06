@@ -1,6 +1,6 @@
 ﻿using System.Text.Json.Serialization;
 
-namespace WeatherApp.Models
+namespace MiniWeatherApp.Models
 {
     public class CurrentWeather
     {
